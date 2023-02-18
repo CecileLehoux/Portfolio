@@ -4,12 +4,32 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <section className="footer section" id="footer">
-      <h2 className="section__title">Mes compétences</h2>
-      <span className="section__subtitle">Environnement technique</span>
-
-      <div className="footer__container container grid"></div>
-    </section>
+    <footer className="footer">
+      <div className="footer__container container">
+        <h1 className="footer__title">Cécile Lehoux</h1>
+        <ul className="footer__list">
+          <li>
+            <a href="#about" className="footer__link">
+              A propos
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" className="footer__link">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="project" className="footer__link">
+              Projet
+            </a>
+          </li>
+        </ul>
+        <div className="footer__social"></div>
+        <span className="footer__copy">
+          Cécile Lehoux - Tous droits réservés
+        </span>
+      </div>
+    </footer>
   );
 };
 
