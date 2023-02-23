@@ -16,17 +16,16 @@
   cursor: pointer;
 }
 
-.qualification__button:hover {
-  color: var(--title-color-dark);
-}
-
 .qualification__icon {
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
 }
 
 .qualification__active {
-  color: var(--title-color-dark);
+  color: var(--container-color);
+  background-color: var(--title-color-dark);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .qualification__sections {

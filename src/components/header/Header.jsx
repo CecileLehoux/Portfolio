@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Lehoux
+          Cécile Lehoux
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
@@ -37,7 +37,7 @@ const Header = () => {
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className=" uil uil-user nav__icon"></i>A propos
+                <i className=" uil uil-user nav__icon"></i>À propos
               </a>
             </li>
             <li className="nav__item">

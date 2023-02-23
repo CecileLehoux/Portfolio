@@ -1,4 +1,5 @@
 import React from "react";
+import Stars from "./Stars";
 
 const Backend = () => {
   return (
@@ -9,16 +10,8 @@ const Backend = () => {
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Next Js</h3>
-              <span className="skills__level">Intermediaire</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
               <h3 className="skills__name">Node Js</h3>
-              <span className="skills__level">Basique</span>
+              <Stars rate={3} />
             </div>
           </div>
 
@@ -26,7 +19,15 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Express</h3>
-              <span className="skills__level">Basique</span>
+              <Stars rate={3} />
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Mongo DB</h3>
+              <Stars rate={3} />
             </div>
           </div>
         </div>
@@ -35,8 +36,8 @@ const Backend = () => {
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">MongoDB</h3>
-              <span className="skills__level">Basique</span>
+              <h3 className="skills__name">Git</h3>
+              <Stars rate={3} />
             </div>
           </div>
 
@@ -44,7 +45,7 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Prisma</h3>
-              <span className="skills__level">Basique</span>
+              <Stars rate={3} />
             </div>
           </div>
 
@@ -52,7 +53,7 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">GraphQL</h3>
-              <span className="skills__level">Basique</span>
+              <Stars rate={2} />
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
 :root {
   --header-height: 3rem;
@@ -12,6 +13,8 @@
   --container-color: #fff;
 
   --body-font: "Poppins", sans-serif;
+  --title-firstname: "Handlee", cursive;
+  --button-color: #ecbb30;
 
   /* =====================z-index===================== */
   --big-font-size: 3.5rem;
@@ -145,7 +148,7 @@ img {
 
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--button-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -153,7 +156,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #dca712;
 }
 
 .button__icon {

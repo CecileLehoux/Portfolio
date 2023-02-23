@@ -1,4 +1,5 @@
 import React from "react";
+import Stars from "./Stars";
 
 const Frontend = () => {
   return (
@@ -10,7 +11,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Avancé</span>
+              <Stars rate={4} />
             </div>
           </div>
 
@@ -18,7 +19,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">CSS</h3>
-              <span className="skills__level">Avancé</span>
+              <Stars rate={4} />
             </div>
           </div>
 
@@ -26,7 +27,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Javascript</h3>
-              <span className="skills__level">Intermediaire</span>
+              <Stars rate={4} />
             </div>
           </div>
         </div>
@@ -36,15 +37,15 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">React</h3>
-              <span className="skills__level">Intermediaire</span>
+              <Stars rate={4} />
             </div>
           </div>
 
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Git</h3>
-              <span className="skills__level">Basique</span>
+              <h3 className="skills__name">Next Js</h3>
+              <Stars rate={3} />
             </div>
           </div>
 
@@ -52,7 +53,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">TypeScript</h3>
-              <span className="skills__level">Intermediaire</span>
+              <Stars rate={3} />
             </div>
           </div>
         </div>

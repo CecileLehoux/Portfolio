@@ -1,10 +1,12 @@
 import React from "react";
+import "./home.css";
 
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
-        Cécile Lehoux
+      <div style={{ display: "flex" }}>
+        <h1 className="home__title"> Cécile Lehoux</h1>
+
         <svg
           width="36"
           height="36"
@@ -54,8 +56,11 @@ const Data = () => {
             fill="#EBA352"
           ></path>
         </svg>
-      </h1>
-      <h3 className="home__subtitle">Développeuse Front-End</h3>
+      </div>
+
+      <div className="typewriter">
+        <h3 className="home__subtitle">Développeuse Front-End</h3>{" "}
+      </div>
       <p className="home__description">
         Créative et passionnée, j'ai à coeur de construire des interfaces
         agréables et ludiques.

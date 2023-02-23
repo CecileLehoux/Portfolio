@@ -48,6 +48,7 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/c%C3%A9cile-lehoux-363a6094/"
                 className="contact__button"
+                target="_blank"
               >
                 Consultez mon profil{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -61,6 +62,7 @@ const Contact = () => {
               <a
                 href="https://github.com/CecileLehoux"
                 className="contact__button"
+                target="_blank"
               >
                 Consultez mon Github{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>

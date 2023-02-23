@@ -1,5 +1,5 @@
 import React from "react";
-
+import Heart from "../../assets/heart.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -14,13 +14,13 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#portfolio" className="footer__link">
-              Portfolio
+            <a href="#skills" className="footer__link">
+              Compétences
             </a>
           </li>
           <li>
-            <a href="project" className="footer__link">
-              Projet
+            <a href="#portfolio" className="footer__link">
+              Portfolio
             </a>
           </li>
         </ul>
@@ -28,6 +28,14 @@ const Footer = () => {
         <span className="footer__copy">
           Cécile Lehoux - Tous droits réservés
         </span>
+        <div className="footer__message">
+          <div className="typewriter">
+            <h3>
+              Merci de votre visite{" "}
+              <img width={15} src={Heart} alt={"Merci de votre visite"} />{" "}
+            </h3>{" "}
+          </div>
+        </div>
       </div>
     </footer>
   );

@@ -4,9 +4,11 @@ import "./works.css";
 const WorksItems = ({ item }) => {
   return (
     <div className="works__card" key={item.id}>
-      <img src={item.image} alt={item.title} className="works__img" />
+      <a href={item.link} target="_blank">
+        <img src={item.image} alt={item.title} className="works__img" />
+      </a>
       <h3 className="works__title">{item.title}</h3>
-      <a href="#" className="works__button">
+      <a href={item.link} className="works__button">
         Demo <i className="bx bx-right-arrow-alt works__button-icon"></i>
       </a>
     </div>
